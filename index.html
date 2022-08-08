@@ -22,12 +22,12 @@
                 <span class="logo-accent">Web</span>Studio
             </a>
             <ul class="list">
-                <li><a class="link" href="./index.html">Студія</a></li>
+                <li><a class="link current" href="./index.html">Студія</a></li>
                 <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
                 <li><a class="link" href="">Контакти</a></li>
             </ul>
         </nav>
-        <ul class="list header-contacts">
+        <ul class="list contacts-header">
             <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
@@ -38,39 +38,41 @@
 
         <!-- Герой -->
         <section class="hero">
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button class="hero-btn" type="button">Замовити послугу</button>
+            <h1 class="title-hero">Ефективні рішення для вашого бізнесу</h1>
+            <button class="btn primary btn-hero" type="button">Замовити послугу</button>
         </section>
 
         <!-- Особливості -->
-        <section class="section">
+        <section class="section features">
             <!-- Логічний заголовок, сховати за допомогою CSS -->
-            <h2>Особливості</h2>
-            <ul>
+            <h2 class="title">Особливості</h2>
+            <ul class="list">
                 <li>
-                    <!-- Заголовки h3 цього списку змінити у CSS: text-transform: uppercase; -->
-                    <h3>Увага до деталей</h3>
-                    <p class="section-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    <h3 class="features-title">Увага до деталей</h3>
+                    <p class="section-text">Ідейні міркування, і навіть початок повсякденної роботи з формування
+                        позиції.</p>
                 </li>
                 <li>
-                    <h3>Пунктуальніть</h3>
-                    <p class="section-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    <h3 class="features-title">Пунктуальніть</h3>
+                    <p class="section-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+                    </p>
                 </li>
                 <li>
-                    <h3>Планування</h3>
+                    <h3 class="features-title">Планування</h3>
                     <p class="section-text">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
                 <li>
-                    <h3>Сучасні технології</h3>
-                    <p class="section-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    <h3 class="features-title">Сучасні технології</h3>
+                    <p class="section-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+                    </p>
                 </li>
             </ul>
         </section>
 
         <!-- Чим ми займаємось -->
         <section class="section">
-            <h2>Чим ми займаємося</h2>
-            <ul>
+            <h2 class="title">Чим ми займаємося</h2>
+            <ul class="list">
                 <li><img src="./images/development.jpg" alt="розробка" width="370"></li>
                 <li><img src="./images/optimization.jpg" alt="оптимізація" width="370"></li>
                 <li><img src="./images/design.jpg" alt="дизайн" width="370"></li>
@@ -79,30 +81,30 @@
 
         <!-- Наша команда -->
         <section class="section team">
-            <h2>Наша команда</h2>
+            <h2 class="title">Наша команда</h2>
 
             <!-- Ігор Балуєв на занятті розяснив що для CEO заголовками зловживати не потрібно, тому і'мя не <h3> a <p>,
                  але якщо для скрінрідерів то краще застосую <h3> -->
             <!-- після перевірки ментором виправив на h3 -->
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./images/igor-demyanenko.jpg" alt="фото Ігоря" width="270">
-                    <h3>Ігор Дем'яненко</h3>
+                    <h3 class="team-title">Ігор Дем'яненко</h3>
                     <p class="section-text" lang="en">Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/olga-repina.jpg" alt="фото Ольги" width="270">
-                    <h3>Ольга Рєпіна</h3>
+                    <h3 class="team-title">Ольга Рєпіна</h3>
                     <p class="section-text" lang="en">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./images/mykola-tarasov.jpg" alt="фото Миколи" width="270">
-                    <h3>Микола Тарасов</h3>
+                    <h3 class="team-title">Микола Тарасов</h3>
                     <p class="section-text" lang="en">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/mikhailo-ermakov.jpg" alt="фото Михайла" width="270">
-                    <h3>Михайло Єрмаков</h3>
+                    <h3 class="team-title">Михайло Єрмаков</h3>
                     <p class="section-text" lang="en">UI Designer</p>
                 </li>
             </ul>
@@ -111,14 +113,14 @@
 
     <!-- footer -->
     <footer class="page-footer">
-        <a class="logo-footer" href=""><span class="logo-accent">Web</span>Studio</a>
+        <a class="logo logo-footer" href=""><span class="logo-accent">Web</span>Studio</a>
         <address>
             <ul class="list">
-                <li><a class="link-adress" href="https://goo.gl/maps/zaocLffD8GGZKToq6" target="_blank"
+                <li><a class="adress-footer" href="https://goo.gl/maps/zaocLffD8GGZKToq6" target="_blank"
                         rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a>
                 </li>
-                <li><a class="footer-contacts" href="mailto:info@example.com">info@example.com</a></li>
-                <li><a class="footer-contacts" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                <li><a class="contacts-footer" href="mailto:info@example.com">info@example.com</a></li>
+                <li><a class="contacts-footer" href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
         </address>
     </footer>
