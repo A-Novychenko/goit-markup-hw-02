@@ -15,60 +15,60 @@
 </head>
 
 <body>
-    <!-- Шапка сайта -->
-    <header>
-        <nav>
-            <a href="./index.html">
-                WebStudio
+    <!-- header -->
+    <header class="page-header">
+        <nav class="site-nav">
+            <a class="logo" href="./index.html">
+                <span class="logo-accent">Web</span>Studio
             </a>
-            <ul>
-                <li><a href="./index.html">Студія</a></li>
-                <li><a href="./portfolio.html">Портфоліо</a></li>
-                <li><a href="">Контакти</a></li>
+            <ul class="list">
+                <li><a class="link" href="./index.html">Студія</a></li>
+                <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
+                <li><a class="link" href="">Контакти</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="list header-contacts">
+            <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
 
-    <!-- Основний контент сторінки/унікальний на сайті -->
+    <!-- main -->
     <main>
 
         <!-- Герой -->
-        <section>
+        <section class="hero">
             <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button type="button">Замовити послугу</button>
+            <button class="hero-btn" type="button">Замовити послугу</button>
         </section>
 
         <!-- Особливості -->
-        <section>
+        <section class="section">
             <!-- Логічний заголовок, сховати за допомогою CSS -->
             <h2>Особливості</h2>
             <ul>
                 <li>
                     <!-- Заголовки h3 цього списку змінити у CSS: text-transform: uppercase; -->
                     <h3>Увага до деталей</h3>
-                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    <p class="section-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
                 <li>
                     <h3>Пунктуальніть</h3>
-                    <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    <p class="section-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
                 <li>
                     <h3>Планування</h3>
-                    <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <p class="section-text">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
                 <li>
                     <h3>Сучасні технології</h3>
-                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    <p class="section-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
         </section>
 
         <!-- Чим ми займаємось -->
-        <section>
+        <section class="section">
             <h2>Чим ми займаємося</h2>
             <ul>
                 <li><img src="./images/development.jpg" alt="розробка" width="370"></li>
@@ -78,7 +78,7 @@
         </section>
 
         <!-- Наша команда -->
-        <section>
+        <section class="section team">
             <h2>Наша команда</h2>
 
             <!-- Ігор Балуєв на занятті розяснив що для CEO заголовками зловживати не потрібно, тому і'мя не <h3> a <p>,
@@ -88,37 +88,37 @@
                 <li>
                     <img src="./images/igor-demyanenko.jpg" alt="фото Ігоря" width="270">
                     <h3>Ігор Дем'яненко</h3>
-                    <p lang="en">Product Designer</p>
+                    <p class="section-text" lang="en">Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/olga-repina.jpg" alt="фото Ольги" width="270">
                     <h3>Ольга Рєпіна</h3>
-                    <p lang="en">Frontend Developer</p>
+                    <p class="section-text" lang="en">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./images/mykola-tarasov.jpg" alt="фото Миколи" width="270">
                     <h3>Микола Тарасов</h3>
-                    <p lang="en">Marketing</p>
+                    <p class="section-text" lang="en">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/mikhailo-ermakov.jpg" alt="фото Михайла" width="270">
                     <h3>Михайло Єрмаков</h3>
-                    <p lang="en">UI Designer</p>
+                    <p class="section-text" lang="en">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
 
-    <!-- Футер -->
-    <footer>
-        <a href="">WebStudio</a>
+    <!-- footer -->
+    <footer class="page-footer">
+        <a class="logo-footer" href=""><span class="logo-accent">Web</span>Studio</a>
         <address>
-            <ul>
-                <li><a href="https://goo.gl/maps/zaocLffD8GGZKToq6" target="_blank"
+            <ul class="list">
+                <li><a class="link-adress" href="https://goo.gl/maps/zaocLffD8GGZKToq6" target="_blank"
                         rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a>
                 </li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+                <li><a class="footer-contacts" href="mailto:info@example.com">info@example.com</a></li>
+                <li><a class="footer-contacts" href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
         </address>
     </footer>
