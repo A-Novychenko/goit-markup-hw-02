@@ -12,7 +12,7 @@
     --white-transparent-color: rgba(255, 255, 255, 0.6);
     /* btn-bgc, team-bgc */
     --bgc-gray: #F5F4FA;
-    /* footer-bgc */
+    /* footer-bgc, color nav-link*/
     --bgc-footer: #2F303A;
 }
 
@@ -24,12 +24,11 @@ body {
     letter-spacing: 0.03em;
 }
 
-a {
-    text-decoration: none;
-}
-
 .list {
     list-style: none;
+}
+.link {
+    text-decoration: none;
 }
 
 
@@ -52,6 +51,12 @@ a {
     color: var(--primary-color);
 }
 
+.btn.secondary:hover, 
+.btn.secondary:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
 /* ===========studio=========== */
 
 /* ----------header--------------*/
@@ -62,6 +67,7 @@ a {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
 
 .logo-accent {
@@ -71,7 +77,7 @@ a {
 /* site-nav */
 
 .site-nav .link {
-    color: var(--primary-color);
+    color: var(--bgc-footer);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
