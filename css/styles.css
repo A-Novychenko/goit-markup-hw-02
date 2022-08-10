@@ -155,16 +155,21 @@ body {
     background-color: var(--bgc-gray);
 }
 
+.team-item {
+    background-color: var(--white-color);
+}
+
 .team-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .team .section-text {
     font-size: 16px;
     line-height: 1.19px;
+    text-align: center;
 }
 
 /* ----------footer--------------*/
